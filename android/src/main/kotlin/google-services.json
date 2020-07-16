@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1073172987509",
+    "firebase_url": "https://flutterprojects-2cd15.firebaseio.com",
+    "project_id": "flutterprojects-2cd15",
+    "storage_bucket": "flutterprojects-2cd15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073172987509:android:9884363e1881517ffc423c",
+        "android_client_info": {
+          "package_name": "com.excubivue.cubivue_scanners_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073172987509-8inpnrgsje6kt2emvvs1aptm9k0bg7a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBytwoswueilMyqewJPAX2mPAJkwn-gsow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073172987509-8inpnrgsje6kt2emvvs1aptm9k0bg7a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

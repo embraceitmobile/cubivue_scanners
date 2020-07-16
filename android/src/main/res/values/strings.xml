@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">scanner</string>
+
+    <!--MaterialBarCodeScanner-->
+    <string name="library_name" translatable="false">MaterialBarcodeScanner</string>
+    <string name="permission_camera_rationale" translatable="false">Access to the camera is needed for barcode detection.</string>
+
+</resources>

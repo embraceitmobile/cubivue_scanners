@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:keepScreenOn="true">
+
+    <ImageView
+        android:id="@+id/flash_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Camera Flash"
+        android:padding="@dimen/top_action_button_padding"
+        app:srcCompat="@drawable/camera_flash" />
+
+    <com.excubivue.cubivue_scanners.scanner.mlkit.common.CameraSourcePreview
+        android:id="@+id/firePreview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/margin_100"
+        android:visibility="visible">
+
+        <com.excubivue.cubivue_scanners.scanner.mlkit.common.GraphicOverlay
+            android:id="@+id/fireFaceOverlay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </com.excubivue.cubivue_scanners.scanner.mlkit.common.CameraSourcePreview>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@color/white"
+        android:elevation="5dp"
+        android:visibility="gone"
+        app:cardCornerRadius="5dp">
+
+        <TextView
+            android:id="@+id/detected_bar_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="10dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/border" />
+
+</RelativeLayout>
